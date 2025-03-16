@@ -1,0 +1,4 @@
+.circleci
+__pycache__
+*.pyc
+tests
