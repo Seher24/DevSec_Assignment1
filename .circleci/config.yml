@@ -23,7 +23,7 @@ jobs:
       - setup_remote_docker
       - run:
           name: Build Docker Image
-          command: docker build -t faez181/invoicer:secure .
+          command: docker build -t seher04/invoicer:secure .
       - run:
           name: Login to Docker Hub
           command: |
@@ -31,7 +31,7 @@ jobs:
 
       - run:
           name: Push Docker Image
-          command: docker push faez181/invoicer:secure
+          command: docker push seher04/invoicer:secure
 
 workflows:
   version: 2
